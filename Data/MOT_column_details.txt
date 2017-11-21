@@ -1,0 +1,25 @@
+Subsample of the first 100000 rows of Anonomises MOT test data for 2013. 
+
+Full data source: http://data.gov.uk/dataset/anonymised_mot_test/resource/b4693eab-3bc4-4f2b-b026-cb2ec52c7bd4
+
+Column details
+---------------
+
+| Column Name (Suggested) | Description                   | Type         | Length |
+|-----------------  | ----------------------------------- | ------------ | -----  |  
+| Test_ID           |  Unique Identifier for a test       |  Integer     | 10     |   
+| Date              |  Date of Test                       |  Date        | Format ‘YYYY-MM-DD’ | 
+| Mileage           |  Mileage recorded at point of test  |  Integer     |  7     |  
+| Make              |  Vehicle Make                       |  Character   |  30    |  
+| Model             |  Vehicle Model                      |  Character   |  30    |  
+| Colour            |  Vehicle Colour                     |  Character   |  16    |  
+| Fuel_Type         |  Vehicle Fuel Type                  |  Character   |  1     |  
+| Cylinder          |  Vehicle Cylinder Capacity          |  Integer     |  11    |  
+| Test_Result       |  Test Outcome                       |  Character   |  3     |  
+ 
+
+Column names 
+--------------
+
+["Test_ID", "Date", "Mileage", "Make", "Model", "Colour", "Fuel_Type", "Cylinder", "Test_Result"]
+
